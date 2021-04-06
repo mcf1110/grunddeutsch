@@ -1,0 +1,50 @@
+html,
+body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	color: #333;
+	margin: 0;
+	padding: 8px;
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",
+		sans-serif;
+}
+
+input,
+button,
+select,
+textarea {
+	font-family: inherit;
+	font-size: inherit;
+	-webkit-padding: 0.4em 0;
+	padding: 0.4em;
+	margin: 0 0 0.5em 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
+body {
+	background: #474747;
+	padding: 0;
+	display: grid;
+	place-content: center;
+	color: #000000;
+	font-family: "Balsamiq Sans", cursive;
+	font-size: 18pt;
+}
+
+body::before {
+	display: block;
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	opacity: 0.01;
+	content: " ";
+	background: url(https://image.freepik.com/free-vector/minimal-rhombus-pattern_1159-2407.jpg);
+	z-index: -1;
+}
