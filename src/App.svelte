@@ -3,8 +3,6 @@
 	import draw from "./draw";
 	import type { Q } from "./Q";
 	import Question from "./Question.svelte";
-	console.log(data);
-	export let name: string;
 
 	let totalQuestions = 0;
 	let correctQuestions = 0;
