@@ -28,27 +28,31 @@
 <style>
     .card {
         min-width: 720px;
-        background-color: #e0e0ce;
-        border: 5px solid var(--color);
-        border-radius: 20px;
+        background-color: #e0eaeb;
+        border: 2px solid var(--color);
+        border-radius: 5px;
         border-top-left-radius: 0;
-        box-shadow: 0 0 2em rgba(0, 0, 0, 0.3);
+        box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
         text-align: center;
     }
 
     button {
-        background: #f2af29;
-        border: 3px solid black;
-        border-radius: 10px;
+        background: #f1c40f;
+        border: none;
+        border-radius: 5px;
         flex: 1;
         margin: 1em 0.5em;
         cursor: pointer;
         transition: 0.15s;
-        height: 4em;
+        height: 3em;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 0.82em;
     }
 
     button:hover {
-        background: #d4910c;
+        background: #f39c12;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
     }
 
     .questions {

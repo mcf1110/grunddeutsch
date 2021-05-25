@@ -41,14 +41,14 @@
 </main>
 
 <style>
-	@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap");
+	@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
 
 	main.correct {
-		--color: #70ae6e;
+		--color: #2ecc71;
 	}
 
 	main.incorrect {
-		--color: #ad343e;
+		--color: #e74c3c;
 	}
 
 	h1 {
@@ -56,8 +56,9 @@
 		display: inline-block;
 		margin: 0;
 		padding: 0.2em 1.5em;
-		border-radius: 20px 20px 0 0;
-		width: 20rem;
+		border-radius: 5px 5px 0 0;
+		width: 10em;
+		font-size: 2rem;
 	}
 
 	h1 small {
